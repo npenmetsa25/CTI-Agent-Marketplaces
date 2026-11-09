@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets: never commit API keys
+.env
+.env.*
+*.key
+
+# Local and scratch outputs
+results/e3_mock*/
+results/**/*.old*
+.DS_Store
+~$*
